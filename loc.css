@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(39, 151, 39), rgb(19, 130, 167));
+
+}
+
+#da {
+    background-color: aliceblue;
+    margin: 2em 30em 2em 30em;
+    border-radius: .5em;
+}
+
+#user1 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 2em .5em 2em;
+}
+
+#user1 h2 {
+    text-decoration: underline;
+    padding-left: 4em;
+    margin: .5em;
+
+}
+
+#user1 label {
+    display: inline-block;
+    width: 80px;
+    padding: .5em;
+    font-weight: bold;
+}
+
+#user1 input {
+    padding: .5em;
+    margin: .5em;
+    outline: 0px;
+    overflow: none;
+}
+
+#user1 #btn1,
+#rest {
+    margin-left: 7em;
+}
+
+#btn1 {
+    background-color: blue;
+    border: none;
+    border-radius: .2em;
+    color: white;
+    font-weight: bold;
+}
+
+#rest {
+    background-color: blue;
+    border: none;
+    border-radius: .2em;
+    color: white;
+    font-weight: bold;
+}
+
+#btn1:hover {
+    background-color: orange;
+}
+
+#rest:hover {
+    background-color: orange;
+}
+
+#btn1:active {
+    background-color: green;
+}
+
+#rest:active {
+    background-color: red;
+}
+
+#tab {
+    margin: 0em 2em 0em 4em;
+    text-align: center;
+}
+
+#btn {
+    padding: .5em;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    border: none;
+    border-radius: .2em;
+}
+
+#btn2 {
+    padding: .5em;
+    margin: .5em;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+    border-radius: .2em;
+}
+
+td {
+    padding: .1em;
+}
+th {
+    background-color: black;
+    color: white;
+    padding: .2em;
+}
+/*------------Model box-----*/
+#model2{
+    display: none;
+    justify-content: center;
+    place-items: center;
+    position: absolute;
+    top: 10%;
+    bottom: 70%;
+    background:linear-gradient(90deg, white, whitesmoke);
+    /* color: aliceblue; */
+    width: 250px;
+    margin: 0em 4em 0em 35em;
+    border: 3px groove rgb(33, 187, 141);
+    border-radius: .2em;
+}
+#model2 #head1{
+    float: right;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#model2 #para{
+    padding: 2em;
+    font-size: 20px;
+}
+
+@media screen and (max-width:768px) {
+    #da {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin: 2em 5em 2em 5em;
+        border-radius: .2em;
+    }
+    #user1 {
+        padding: .1em .1em .1em .1em;
+    }
+    #user1 h2 {
+        padding-left: 3em;
+        margin: .2em;
+    }
+    #user1 label {
+        width: 80px;
+        padding: .2em;
+    }
+    #user1 input {
+        padding: .5em;
+        margin: .5em;
+    }
+    #user1 #btn1,#rest {
+        margin-left: 2em;
+    }
+    #btn1 {
+        border-radius: .1em;
+    }
+    #rest {
+        border-radius: .1em;
+    }
+    #tab {
+        margin: 0em 2em 0em 1em;
+    }
+    #btn {
+        padding: .2em;
+        margin: .1em;
+        border-radius: .1em;
+    }
+    #btn2 {
+        padding: .2em;
+        margin: .1em;                                                                                                          
+        border-radius: .1em;
+    }
+    td {
+        padding: 0em;
+    }
+    th {
+        padding: .1em;
+    }
+
+/*------------Model box-----*/
+#model2{
+    top: 10%;
+    bottom: 70%;
+    width: 200px;
+    margin: 0em 1em 0em 7em;
+}
+#model2 #para{
+    padding: 2em;
+    font-size: 20px;
+}
+}

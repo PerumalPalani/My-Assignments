@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Exchanges</title>
+    <link rel="stylesheet" href="./loc.css">
+</head>
+<body>
+    <div id="da">
+    <form id="user1">
+        <h2>Form</h2>
+        <label for="fname">Name:</label>
+        <input type="text" id="input1" placeholder="in1"><br>
+        <label for="age">Age:</label>
+        <input type="text" id="input2" placeholder="in2"><br>
+        <label for="address">Address:</label>
+        <input type="text" id="input3" placeholder="in3"><br>
+        <input type="button" id="btn1" value="submit" onclick="submitData()">
+        <input type="button" value="reset" id="rest" onclick="reset()"><br><br>
+        <!-- <input type="number" id="index" placeholder="enter index no"><br><br>
+        <input type="button" value="edit" onclick="editdata()">
+        <input type="button" value="update" onclick="updateData()">
+        <input type="button" value="delete" onclick="deleteData()"> -->
+    </form>
+    <table id="tab" border="1px ridge black" cellSpacing="0px" cellpadding="0px">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Options</th>
+        </tr>
+        <tbody id="tbody" class="tobody">
+
+        </tbody>
+    </table><br><br>
+</div>
+<div class="model1" id="model2">
+    <div class="head" id="head1">
+        <h2 id="close">X</h2>
+    </div>
+    <div class="mbody" id="mbody1">
+        <!-- <p>Well come</p> -->
+        <p id="para"></p>
+    </div>
+</div>
+  <script src="./tryOwn-local.js"></script>  
+</body>
+</html>
