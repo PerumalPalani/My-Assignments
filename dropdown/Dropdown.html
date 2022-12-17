@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down</title>
+    <link rel="stylesheet" href="./Dropdown.css">
+</head>
+<body>
+    <div class="form_design">
+        <form action="#" id="formId">
+            <h2>Date Form:</h2> <br>
+            <label for="year">Select Year:</label>
+            <select name="yaer" id="year01"></select><span id="year02"></span><br>
+            <label for="month">Select month:</label>
+            <select name="month" id="month01"></select><span id="month02"></span><br>
+            <label for="day">Select date:</label>
+            <select name="day" id="day01" onclick="return valueAssign()"></select><span id="day02"></span><br>
+            <p><span id="age01"></span></p><br>
+            <input type="submit" value="submit" id="submit01">
+            <input type="reset" value="reset" id="reset01">
+        </form>
+    </div>
+    
+</body>
+<script src="./Dropdown.js"></script>
+</html>
