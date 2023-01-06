@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+body{
+    background: linear-gradient(90deg, grey, grey);
+}
+.div1{
+    background-color: white;
+    margin:10% 30% 10% 30%;
+}
+#header{
+    padding: .5em;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+#txt{
+    margin: 2em;
+    padding: .5em;
+    width: 85%;
+    font-size: 1.1em;
+    outline: none;
+}
+#btn{
+    padding: .5em;
+    font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: grey;
+    margin: 0 10% 1% 30%;
+}
+#btn:hover{
+    background-color: tomato;
+}
+#btn:active{
+    background-color: greenyellow;
+}
+#txt1{
+    display: none;
+    color: green;
+    margin: 0 0 0 10%;
+}

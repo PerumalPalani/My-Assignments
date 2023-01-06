@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="./quiz-1.css">
+</head>
+
+<body>
+    <div id="main">
+        <h1 id="heading">SHAPES FORMULAS FOR QUIZ</h1>
+        <hr>
+        <div id="duration">
+            <h3 id="msg">Time duration 20sec per Question</h3>
+            <input type="button" value="START" id="start">
+            <h3 id="msg2"></h3><sub>s</sub>
+        </div>
+        <hr>
+        <div id="master">
+            <div id="qus-1">
+                <h3>1. Area of the circle formula?</h3>
+                <label for="circle"><input type="radio" name="circle" id="A" value="πr2"> πr<sup>2</sup></label>
+                <label for="circle"><input type="radio" name="circle" id="B" value="πr"> πr</label>
+                <label for="circle"><input type="radio" name="circle" id="C" value="2πr"> 2πr</label>
+                <label for="circle"><input type="radio" name="circle" id="D" value="2πr2"> 2πr<sup>2</sup></label>
+                <input type="button" value="Confirm" id="conQus1">
+                <!-- <input type="button" value="Next" id="nxt"> -->
+                <p id="veriQ1"></p>
+            </div>
+            <div id="qus-2">
+                <h3>2. In circle circumfrence to find the radius of the circle formula?</h3>
+                <label for="circle1"><input type="radio" name="circle1" id="A" value="πr2"> πr<sup>2</sup></label>
+                <label for="circle1"><input type="radio" name="circle1" id="B" value="πr"> πr</label>
+                <label for="circle1"><input type="radio" name="circle1" id="C" value="c/2π"> C/2π</label>
+                <label for="circle1"><input type="radio" name="circle1" id="D" value="2πr2"> 2πr<sup>2</sup></label>
+                <input type="button" value="Confirm" id="conQus2">
+                <!-- <input type="button" value="Previous" id="pre"> -->
+                <!-- <input type="button" value="Next" id="nxt"> -->
+                <p id="veriQ2"></p>
+            </div>
+            <div id="qus-3">
+                <h3>3. Find circumfrence of the circle formula?</h3>
+                <label for="circle2"><input type="radio" name="circle2" id="A" value="πr2"> πr<sup>2</sup></label>
+                <label for="circle2"><input type="radio" name="circle2" id="B" value="πr"> πr</label>
+                <label for="circle2"><input type="radio" name="circle2" id="C" value="2πr"> 2πr</label>
+                <label for="circle2"><input type="radio" name="circle2" id="D" value="2πr2"> 2πr<sup>2</sup></label>
+                <input type="button" value="Confirm" id="conQus3">
+                <!-- <input type="button" value="Previous" id="pre"> -->
+                <!-- <input type="button" value="Next" id="nxt"> -->
+                <p id="veriQ3"></p>
+            </div>
+            <div id="qus-4">
+                <h3>4. Area of the square formula?</h3>
+                <label for="square"><input type="radio" name="square" id="A" value="a4"> a<sup>4</sup></label>
+                <label for="square"><input type="radio" name="square" id="B" value="a"> a</label>
+                <label for="square"><input type="radio" name="square" id="C" value="2πa"> 2πa</label>
+                <label for="square"><input type="radio" name="square" id="D" value="a2"> a<sup>2</sup></label>
+                <input type="button" value="Confirm" id="conQus4">
+                <!-- <input type="button" value="Previous" id="pre"> -->
+                <!-- <input type="button" value="Next" id="nxt"> -->
+                <p id="veriQ4"></p>
+            </div>
+            <div id="qus-5">
+                <h3>5. Area of the triangle formula?</h3>
+                <label for="triangle"><input type="radio" name="triangle" id="A" value="1/2xb4">
+                    1/2xb<sup>4</sup></label>
+                <label for="triangle"><input type="radio" name="triangle" id="B" value="1/2xbxh"> 1/2xbxh</label>
+                <label for="triangle"><input type="radio" name="triangle" id="C" value="bxh"> bxh</label>
+                <label for="triangle"><input type="radio" name="triangle" id="D" value="b2"> b<sup>2</sup></label>
+                <input type="button" value="Confirm" id="conQus5">
+                <!-- <input type="button" value="Previous" id="pre"> -->
+                <input type="button" value="Finish Test" id="fin">
+                <p id="veriQ5"></p>
+            </div>
+            <div id="popup">
+                <h3>Your Quiz Result Is!</h3>
+                <h4>Total Time Taken : <span id="timeend"></span></h4>
+                <h4>Correct Answers Count: <span id="cort"></span></h4>
+                <h4>Wrong Answers Count: <span id="wrg"></span></h4>
+                <h4>Not Answered Count: <span id="notAns"></span></h4>
+                <a href="./quiz-1.html" target="_self"><input type="button" value="RESTART" id="re"></a>
+
+            </div>
+        </div>
+    </div>
+    <script src="./quiz-1.js"></script>
+</body>
+
+</html>

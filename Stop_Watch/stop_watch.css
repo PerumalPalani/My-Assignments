@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: linear-gradient(90deg, rgb(199, 190, 190), rgb(199, 190, 190), rgb(199, 190, 190));
+}
+#outer{
+    background-color: white;
+    margin: 5% 35%;
+    border: 5px groove whitesmoke;
+}
+#outer h1{
+    text-align: center;
+    padding: .5em;
+}
+#watch #timer{
+    display: flexbox;
+    border:5px groove whitesmoke;
+    padding: .5em;
+    font-weight: bolder;
+    font-size: 1.3em;
+    margin: 5% 30%;
+    text-align: center;
+}
+#watch #start{
+    margin-left: 20%;
+}
+#watch input{
+    margin: 3%;
+    font-size: 1.2em;
+    padding: .5em;
+    border: 0px;
+    outline: none;
+    background-color: grey;
+    border-radius: .2em;
+    color: white;
+}
+#watch input:hover{
+    background-color: tomato;
+}
+#watch input:active{
+    background-color: greenyellow;
+}

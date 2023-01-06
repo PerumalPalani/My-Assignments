@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Based Quiz</title>
+    <link rel="stylesheet" href="./obj-Q2.css">
+</head>
+
+<body>
+    <div class="mainDiv">
+        <div id="he">
+            <h1>Object Based On Quiz!</h1>
+        </div>
+        <div id="he1">
+            <div id="div1">
+                <h4><span style="color: red;">***</span>Total Time Duration: <span style="color: red;">100sec</span></h4>
+                <h4><span style="color: red;">***</span>Each Question Time Duration: <span style="color: red;">20sec</span></h4>
+            </div>
+            <div id="div2">
+                <input type="button" value="START" id="btn">
+                <div>
+                    <h2 id="time"></h2>
+                </div>
+            </div>
+        </div>
+        <div id="question">
+            <h4 id="qus"></h4>
+            <ol type="A" id="opt">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+            <h4 id="ans"></h4>
+            <div id="status001">
+                <button id="prev" onclick="prevQus()">PREVIOUS</button>
+                <button id="nxt" onclick="nextQus()">NEXT</button><br>
+                <button id="sub" onclick="submition()">SUBMIT</button>
+            </div>
+        </div>
+        <div id="res">
+            <h1 style="text-decoration: underline;">Quiz Result Is!</h1>
+            <h4>Test Total Time Taken : <span style="color: greenyellow;font-weight: bold;" id="ttim"></span><sub style="color: greenyellow;font-weight: bold;">s</sub></h4>
+            <h4>Correct Answer Total Count : <span style="color: greenyellow;font-weight: bold;" id="cAns"></span></h4>
+            <h4>Wrong Answer Total Count : <span style="color: red;font-weight: bold;" id="wAns"></span></h4>
+            <h4>Not Answered Total Count : <span style="color: red;font-weight: bold;" id="nAns"></span></h4>
+            <a href="./obj-Q1.html"><input type="button" value="RESTART" id="rest"></a>
+        </div>
+    </div>
+
+    <script src="./obj-Q3.js"></script>
+</body>
+
+</html>
